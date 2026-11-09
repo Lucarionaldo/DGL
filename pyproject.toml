@@ -1,0 +1,17 @@
+[project]
+name = "DGL"
+version = "2026.0"
+description = "Hausaufgaben"
+requires-python = "==3.12.*"
+dependencies = [
+    "numpy",
+    "matplotlib",
+   
+]
+
+[dependency-groups]
+dev = ["ruff"]
+
+[tool.uv]
+# Not an installable package: uv only manages the environment.
+package = false

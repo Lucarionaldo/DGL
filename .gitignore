@@ -1,0 +1,18 @@
+# Virtuelle Python-Umgebung
+.venv/
+venv/
+env/
+
+# Python-Cache
+__pycache__/
+*.pyc
+
+# Zugangsdaten
+.env
+*.key
+
+# Editor
+.vscode/
+
+# Temporäre Dateien
+.ipynb_checkpoints/
